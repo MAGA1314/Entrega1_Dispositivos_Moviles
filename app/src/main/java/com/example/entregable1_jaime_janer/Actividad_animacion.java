@@ -19,6 +19,6 @@ public class Actividad_animacion extends AppCompatActivity {
                 startActivity(new Intent(Actividad_animacion.this, MainActivity.class));
                 finish();
             }
-        }, 2000);
+        }, 5000);
     }
 }
